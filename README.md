@@ -29,7 +29,7 @@ Réaliser un script qui génèrera un tableau de 24 apprenants aléatoirement. S
 
 ### Implémenter des méthodes additionnelles sur l'objet
 
-La notation requise pour les allergies est un nombre numerique représentation l'ensemble des allergies de l'apprenant.
+La notation requise pour les allergies est un nombre numerique représentant l'ensemble des allergies de l'apprenant.
 
 La liste des allergènes connus par votre application (et leurs valeurs associées)  sont les suivantes :
 
@@ -57,10 +57,19 @@ Ajouter au sein de la classe apprenant une méthode :
  * L'age de l'apprenant le plus agé
  * Un tableau avec toute la promotion et les informations correspondates
 
-2) Réalisez une liste de choix contenant l'ensemble des alergènes connus. après sélection d'un champ au sein de cette liste de choix, affichez au sein du tableau uniquement les apprenants concernés.
+2) Réalisez une liste de choix contenant l'ensemble des allergènes connus. après sélection d'un champ au sein de cette liste de choix, affichez au sein du tableau uniquement les apprenants concernés.
 
-### Refactoring ? 
+### Refactoring Allergènes 
 
-Il a été detecté de nombreux nouveaux allergènes. Trouver une méthode afin de 
+Il a été detecté de nombreux nouveaux allergènes. Trouver une méthode afin de pouvoir les intégrer sur votre site plus facilement : 
+ * lait (256)
+ * acarien  (512)
+
+N'oubliez pas de mettre à  jour votre génération aléatoire.
+
+### Unit tests
+Ecrivez des tests unitaires Jasmine
+
+
 
 >  Si vous avez terminé cet exercice, essayez de générer la promotion d'apprenants dans un autre langage (TypeScript/Python/PHP...)
